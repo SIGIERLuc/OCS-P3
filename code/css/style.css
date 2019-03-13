@@ -1,0 +1,297 @@
+/*GLOBAL*/
+
+body {
+    background-image: url("../img/background-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+p,
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+h1,
+h2 {
+    font-weight: bolder;
+}
+
+h1 {
+    margin: 20px 0 20px 0;
+}
+
+.warpper {
+    height: 100%;
+}
+
+/* NAVIGATION */
+
+header {
+    background-color: #131313;
+}
+
+header .nav-link {
+    margin-right: 50px;
+}
+
+.nav-link,
+h1 {
+    text-transform: uppercase;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #131313 !important;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    display: fixed;
+}
+
+footer .nav-link {
+    color: #ffffff !important;
+}
+
+footer ul {
+    text-align: left;
+    list-style: none;
+    padding: 0px;
+}
+footer ul li
+{
+    margin-bottom:15px;
+}
+footer ul li a:focus,
+footer ul li a:hover,
+footer ul li a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-navigation{
+   font-size: 16px;
+   text-transform: uppercase;
+   
+}
+@media screen and (max-width: 575px) {
+    footer ul {
+        text-align: center;
+        
+    }
+}
+
+/* HOME PAGE */
+
+.section1 {
+    margin-bottom: 50px !important;
+}
+
+.slider .item img {
+    min-height: 500px;
+}
+
+.bottom-slider .item img {
+    min-height: 200px;
+    max-height: 285px;
+}
+
+.twitter {
+    max-height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.section2 {
+    margin: 10px 0 10px 0;
+}
+
+.btn-home {
+    text-align: center;
+    margin: 10px 20px 10px 0;
+}
+
+.section3 {
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 600px) {
+    .bottom-slider .item img {
+        max-height: 460px;
+    }
+    .twitter {
+        max-height: 400px;
+    }
+}
+
+/*LIST PAGE*/
+
+.box {
+    width: auto;
+    margin: 25px;
+    background-color: #00000067;
+    border: 3px solid #ffffff80;
+}
+
+
+
+.affiche {
+    max-height: 220px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle,
+.btn-info,
+.btn-info:hover {
+    border-color: #ffffff;
+    background-color: #00000067;
+}
+
+.btn-list {
+    text-align: right;
+    margin: 10px 20px 10px 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .affiche {
+        width: 100%;
+        max-height: 100%;
+    }
+    .btn-list {
+        text-align: center;
+        margin: 10px 0 10px 0;
+    }
+    .box h2 {
+        text-align: center;
+        margin-left: 0px!important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .movie-listing p {
+        margin-left: 50px;
+    }
+    .box h2{
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .movie-listing p {
+        margin: 0 10px 0 10px;
+        text-align: justify;
+    }
+}
+
+/*MOVIE PAGE*/
+
+.affiche-page {
+    max-height: 220px;
+}
+
+.center-img {
+    text-align: center;
+}
+
+.mobile-box{
+    display: none;
+}
+.subscribe{
+    
+    position: relative!important;
+    width: auto!important;
+    margin: 10px 10px 85px 10px; 
+}
+div.a
+{
+    position:fixed;
+    margin-top:20%;
+    background-color: #00000080;
+    border: 2px solid #ffffff80;
+    padding: 20px;
+}
+div.a,
+h1 {
+    text-align: center;
+}
+
+div.a button {
+    margin: 20px;
+    background: #00000080;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+    .affiche-page {
+        margin-bottom: 20px;
+        max-height: 400px;
+    }
+    .mobile-box{
+        display: block;
+    }
+    .desktop-box
+    {
+        display: none;
+    }
+    .film-desc p{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .right-side-txt {
+        margin-left: 10px;
+    }
+}
+/* CONTACT PAGE */
+
+.banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    margin-bottom: 50px;
+}
+.info
+{
+    margin-bottom: 5%;
+}
+.map
+{
+    max-width: 550px;
+    max-height: 500px;
+}
+
+/* SOIREES DE PROJECTION*/
+
+ul li {
+    color: #ffffff
+}
+
+.little-push {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 845px) {
+    .slider,
+    .banner {
+        display: none;
+    }
+}
